@@ -19,6 +19,7 @@
      padding: 0;
      box-sizing: border-box;
      background-color: #e6e6e6;
+     background-color: rgb(33, 33, 33);
     }
 
    a{
@@ -31,11 +32,16 @@
    }
 
     .containerNavBar{
-        width: 100%;
+        width: 70%;
         height: 100%;
         margin: auto;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .imgBox{
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .container{
@@ -51,18 +57,37 @@
         width: 100%;
         height: 1100px;
         background-color: rgb(33, 33, 33);
+        padding-bottom: 150px
     }
 
+    .containerBlue{
+        width: 100%;
+        height: 15vh;
+        background-color: rgba(2,130,249,255);
+    }
+    .boxImgText{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 20%;
+    }
+
+    .logo{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
     .banner{
       height: 40%;
       width: 100%;
       color: white;
-      background-image: url("public/img/jumbotron.jpg");
+      background-image: url(http://localhost:8000/img/jumbotron.jpg);
     }
 
     .content{
       position: relative;
-      width: 70%;
+      width: 80%;
       height: 60%;
       margin: auto;
       display: flex;
@@ -91,8 +116,8 @@
 
     .card{
         text-align: center;
-        width: 210px;
-        height: 210px;
+        width: 200px;
+        height: 200px;
     }
 
     img{

@@ -1,11 +1,6 @@
 <main>
-    {{-- <ul>
-        @foreach ($comics as $item)
-            <a>{{ ($item['title']) }}</a>
-        @endforeach
-    </ul> --}}
     <div class="containerGray">
-        <div class="banner" />
+        <div class="banner"></div>
         <div class="content">
           <div class="series">
             CURRENT SERIES
@@ -18,7 +13,61 @@
                     </div >
                 </div>
             @endforeach
-            <button>LOAD MORE</button>
+
+        </div>
+        <button>LOAD MORE</button>
+    </div>
+    <div class="containerBlue">
+        <div class="container">
+          <div class="boxImgText">
+            <div class="logo">
+              <img
+                src="http://localhost:8000/img/buy-comics-digital-comics.png"
+                alt=""
+              >
+            </div>
+            <div>DIGITAL COMICS</div>
+          </div>
+          <div class="boxImgText">
+            <div class="logo">
+              <img
+                src="http://localhost:8000/img/buy-comics-merchandise.png"
+                alt=""
+              >
+            </div>
+            <div>DC MERCHANDISE</div>
+          </div>
+          <div class="boxImgText">
+            <div class="logo">
+              <img
+                src="http://localhost:8000/img/buy-comics-subscriptions.png"
+                alt=""
+              >
+            </div>
+            <div>SUBSCRIPTION</div>
+          </div>
+          <div class="boxImgText">
+            <div class="logo">
+              <img
+                src="http://localhost:8000/img/buy-comics-shop-locator.png"
+                alt=""
+              >
+            </div>
+            <div>COMICS SHOP LOCATOR</div>
+          </div>
+          <div class="boxImgText">
+            <div
+              id="special"
+              class="logo"
+            >
+              <img
+                src="http://localhost:8000/img/img/buy-dc-power-visa.svg"
+                alt=""
+              >
+            </div>
+            <div>DC POWER VISA</div>
+          </div>
         </div>
       </div>
+
 </main>

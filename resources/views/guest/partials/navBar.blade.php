@@ -2,6 +2,12 @@
 <header>
     <div class="navbar">
       <div class="containerNavBar">
+        <div class="imgBox">
+            <img
+              src="http://localhost:8000/img/dc-logo.png"
+              alt=""
+            >
+          </div>
         <div class="boxMenu">
           <ul>
             <li><a href="">CHARACTERS</a></li>
