@@ -22,7 +22,7 @@
           <div class="boxImgText">
             <div class="logo">
               <img
-                src="http://localhost:8000/img/buy-comics-digital-comics.png"
+                src="/img/buy-comics-digital-comics.png"
                 alt=""
               >
             </div>
@@ -31,7 +31,7 @@
           <div class="boxImgText">
             <div class="logo">
               <img
-                src="http://localhost:8000/img/buy-comics-merchandise.png"
+                src="/img/buy-comics-merchandise.png"
                 alt=""
               >
             </div>
@@ -40,7 +40,7 @@
           <div class="boxImgText">
             <div class="logo">
               <img
-                src="http://localhost:8000/img/buy-comics-subscriptions.png"
+                src="/img/buy-comics-subscriptions.png"
                 alt=""
               >
             </div>
@@ -49,7 +49,7 @@
           <div class="boxImgText">
             <div class="logo">
               <img
-                src="http://localhost:8000/img/buy-comics-shop-locator.png"
+                src="/img/buy-comics-shop-locator.png"
                 alt=""
               >
             </div>
@@ -61,7 +61,7 @@
               class="logo"
             >
               <img
-                src="http://localhost:8000/img/img/buy-dc-power-visa.svg"
+                src="/img/img/buy-dc-power-visa.svg"
                 alt=""
               >
             </div>

@@ -4,7 +4,7 @@
       <div class="containerNavBar">
         <div class="imgBox">
             <img
-              src="http://localhost:8000/img/dc-logo.png"
+              src="/img/dc-logo.png"
               alt=""
             >
           </div>
